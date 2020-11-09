@@ -1,0 +1,280 @@
+html, body{
+    height: 100%;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    background-image: url("damla-ozkan-psy-nI3562c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 15%;
+}
+#logo{
+    width: 350px;
+    transition: width 0.4s;
+
+}
+#logo:hover {
+    width: 370px;
+}
+#main {
+    background:#eee;
+    min-height: calc(100% - 25px);
+    margin-bottom: -25px;
+    padding-bottom: 25px;
+    overflow:auto;
+}
+
+#header {
+    height: 100px;
+    background: #A7D6D1;
+    color: #2B5270;
+}
+
+#main > #header > .header {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+#navBar {
+    height: 35px;
+    background: #6F8DA3;
+    padding-left: 20px;
+}
+
+#navBar > ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#navBar > ul > li {
+    align-items: center;
+    display: flex;    
+    padding: 0px 10px;
+    float: left;
+    color: white;
+    height: 35px;
+}
+
+#navBar > ul> li > a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+#navBar > ul > li:link {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: ease-in 0.3s;
+}
+
+/* Events - Navigation */
+
+#navBar > ul> li:hover {
+    background: #75B0BA;
+}
+
+#navBar > ul> li > a:hover {
+    text-shadow: 0 0 1.5px black;
+
+}
+
+#navBar > ul> li > a.active {
+    text-decoration:underline;
+
+}
+
+
+
+/* Content */
+
+#preview {
+    padding: 40px 7.5%;
+    float: left;
+    background: #eee;
+    text-align: justify;
+    color: #2B5270;
+}
+
+#previewstr {
+    text-align: center;
+    color: #2B5270;
+    background: #eee;
+    margin: 0 2.5%;
+}
+#main h1 {
+    color: #2B5270;
+}
+
+#index-a {    
+    margin: 100px  5% 50px 5%;
+    font-size: 20px;
+}
+
+#index-a a, #tabele-a a, #kasa-a, #potvrda-a {
+    border-radius: 10px;
+    background: #DB8674;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: ease-in 0.5s;
+}
+
+#tabele-a {
+    float:right;
+    margin: 20px 0px 20px 0;
+}
+
+#index-a a:hover, #tabele-a a:hover {
+    background-color: #2B5270;
+}
+
+#kasa-a {
+    border: none;
+}
+
+table {
+    margin-top: 60px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+
+}
+td a{
+    text-decoration: none;
+    color:#2B5270;
+    font-weight: bolder;
+
+}
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid #DECCC8;
+    padding: 10px;
+}
+
+.tabela tr:nth-child(odd){background-color: #FFF0ED;}
+
+.tabela tr:hover {background-color: #DECCC8;}
+
+.tabela th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #DB8674;
+    color: #fff;
+}
+#formular {
+    border: 3px solid #A7D6D1;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.kategorija {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#kasa-dugme {
+    position: fixed;
+    bottom: 50px;
+    right:60px;
+    color: #2B5270;
+    width: 150px;
+    height: 50px;
+}
+
+fieldset {
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+    border-style: none;
+}
+
+label.opis {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.unos {  
+    height: 20px;
+    width: 400px;
+    text-align: right;
+}
+
+.kasa {
+    padding: 0px;
+    margin-top: 10px;
+}
+#kasa-tabela{
+    margin-top: 20px;
+}
+#kasa-tabela td, #kasa-tabela th{
+    border: 1px solid #DECCC8;
+    padding: 10px;
+}
+
+#kasa-tabela tr:nth-child(odd){background-color: transparent;}
+
+#kasa-tabela tr:hover {background-color: transparent;}
+
+#kasa-tabela th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #DB8674;
+    color: #fff;
+}
+.kupovina-input {
+    text-align: right;
+}
+.kasa-input {
+    text-align: right;
+    width: 50px;
+
+}
+#iznosRacuna{
+    font-size: 20px;
+}
+#kupac {
+    align-content: center;
+    color: #2B5270;
+    font-size:15px;
+    width: 495px;
+}
+
+#potvrda {
+    margin-top: 100px;
+    align-content: center;
+}
+
+#footer {
+    clear: both;
+    height: 25px;
+    background: #2B5270;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#footer > h5 {
+    margin: 0;
+    padding: 5px 0;
+}
